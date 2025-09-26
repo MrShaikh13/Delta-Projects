@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+}
+
+
+.container {
+    height: 600px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 50px;
+    box-shadow: 0px 1px 2px ;
+    transition: all 0.5s ease-in-out;
+    background-image: url(/Class-project/Project-todo/pexels-gantas-3750272.jpg);
+    background-size: cover;
+    
+}
+
+h1 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+}
+.container:hover{
+    box-shadow: 2px 4px 8px;
+}
+
+.task{
+    width: 50%;
+    align-self: center;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    align-self: center;
+    height: 25px;
+}
+
+.task:active {
+    background-color: green;
+    height: 28px;
+    width: 230px;
+
+}
+
+.taskname {
+    background-color: antiquewhite;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    height: 25px;
+}
+
+ol {
+    align-self: center;
+    margin-top: 40px;
+    color: white;
+}
+
+li {
+    margin: 2px;
+}
+
